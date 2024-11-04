@@ -1,0 +1,33 @@
+.big_text{
+    color: white;
+    font-size: 61px;
+    font-family: 'Poppins', sans-serif;
+    margin: 18px 0 10px;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.content_parent{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_table{
+    color: white;
+    margin-top: 5vh;
+}
+
+table {
+    width: 81vh;
+    border-spacing: 50px 20px;
+    margin-left: 18vh;
+}
+.text_right{
+    text-align: right;
+}
+.text_left{
+    text-align: left;
+}
