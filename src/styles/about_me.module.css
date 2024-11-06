@@ -1,7 +1,6 @@
 .big_text{
     color: white;
     font-size: 61px;
-    /*margin: 18px 0 10px 0;*/
     font-weight: 700;
     line-height: 62px;
     text-align: center;
@@ -9,7 +8,6 @@
 
 
 .content_parent{
-    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
