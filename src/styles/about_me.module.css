@@ -1,33 +1,118 @@
 .big_text{
     color: white;
     font-size: 61px;
-    font-family: 'Poppins', sans-serif;
-    margin: 18px 0 10px;
+    /*margin: 18px 0 10px 0;*/
     font-weight: 700;
     line-height: 62px;
+    text-align: center;
 }
 
+
 .content_parent{
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
 }
 
-.content_table{
+
+.table_one{
     color: white;
     margin-top: 5vh;
-}
-
-table {
-    width: 81vh;
+    width: 80vh;
     border-spacing: 50px 20px;
-    margin-left: 18vh;
-}
-.text_right{
-    text-align: right;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .text_left{
     text-align: left;
 }
+.text_th{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+
+
+hr{
+    border: none;
+    border-top: 1px solid grey;
+    color: grey;
+    height: 1px;
+    width: 25%;
+    margin-top: 7vh;
+    align-content: center;
+}
+
+
+.p1{
+    color: white;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    align-content: center;
+}
+
+
+.div_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70%;
+    margin: 5vh 0 0 23vh;
+}
+.image,.php,.cpp,.next{
+    width: 170px;
+    height: 170px;
+    margin: 0 15vh 5vh 5vh;
+}
+.php{
+    width: 300px;
+}
+.cpp{
+    width: 150px;
+}
+.next{
+    margin-left: 4vh;
+}
+.css{
+    margin: 2vh 5vh 5vh 5vh;
+    width: 150px;
+    height: 130px;
+}
+
+
+.table_two {
+    color: white;
+    margin-top: 5vh;
+    width: 80vh;
+    border-spacing: 50px 50px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_two td{
+    vertical-align: top;
+    padding: 10px;
+    line-height: 2;
+}
+/*.table_two td::after{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 2px;*/
+/*    height: 100%;*/
+/*    background-color: white;*/
+/*}*/
+
+.text_small {
+    font-size: 13px;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
