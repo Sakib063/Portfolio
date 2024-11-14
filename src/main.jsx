@@ -6,6 +6,7 @@ import Index from "./pages/Index.jsx";
 import AboutMe from "./pages/about_me.jsx";
 import Projects from "./pages/projects.jsx";
 import Contact from "./pages/contact.jsx";
+import Stories from "./pages/stories.jsx";
 
 const router=createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router=createBrowserRouter([
     {
         path:'/contact',
         element:<Contact />
+    },
+    {
+        path:'/my-stories',
+        element:<Stories />
     }
 ])
 
