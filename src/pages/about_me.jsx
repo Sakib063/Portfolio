@@ -1,7 +1,7 @@
 import laravel from '../assets/laravel.png'
-import php from '../assets/php.png'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
+import prisma from '../assets/prisma.png'
+import laragon from '../assets/Laragon.png'
+import tailwind from '../assets/tailwind.png'
 import c from '../assets/c.png'
 import cpp from '../assets/C++.png'
 import java from '../assets/java.png'
@@ -56,23 +56,24 @@ const AboutMe=()=>{
             </table>
             <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
             <p className='text-white font-bold text-center text-[26px] mt-8'>MY SKILLS</p>
-            <div className='w-[60%] flex justify-between gap-4 items-center mx-auto mt-10'>
+            <div className='w-[60%] flex justify-between gap-6 items-center mx-auto mt-10'>
                 <div className='flex flex-col gap-4'>
                     <img src={c} className='w-44 h-44 object-contain my-10'/>
-                    <img src={html} className='w-44 h-44 object-contain my-10'/>
                     <img src={laravel} className='w-44 h-44 object-contain my-10'/>
+                    <img src={laragon} className='w-44 h-44 object-contain my-10'/>
                 </div>
                 <div className='flex flex-col gap-4'>
                     <img src={cpp} className='w-44 h-44 object-contain my-10'/>
-                    <img src={css} className='w-44 h-44 object-contain my-10'/>
                     <img src={next} className='w-44 h-44 object-contain my-10'/>
+                    <img src={tailwind} className='w-44 h-44 object-contain my-10'/>
                 </div>
                 <div className='flex flex-col gap-4'>
                     <img src={java} className='w-44 h-44 object-contain my-10'/>
-                    <img src={php} className='w-44 h-44 object-contain my-10'/>
                     <img src={react} className='w-44 h-44 object-contain my-10'/>
+                    <img src={prisma} className='w-44 h-44 object-contain my-10'/>
                 </div>
             </div>
+            <div className='flex justify-center my-14 md:justify-end md:w-11/12'><ButtonBig label={'Explore More'} icon={'arrow-forward-sharp'}/></div>
             <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
             <p className='hidden md:block text-white font-bold text-center text-[26px] mt-8'>Education & Experience</p>
             <table className='hidden md:table text-white mt-8 md:text-[20px] sm:text-[14px] mx-auto border-separate border-spacing-y-10 md:border-spacing-x-56'>
