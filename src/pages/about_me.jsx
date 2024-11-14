@@ -8,8 +8,18 @@ import java from '../assets/java.png'
 import react from '../assets/react.png'
 import next from '../assets/next.png'
 import Header from "../components/header.jsx";
+import ButtonBig from "../components/button_big.jsx";
 
 const AboutMe=()=>{
+    const download=()=>{
+        const link=document.createElement('a')
+        link.href='src/assets/cv.pdf'
+        link.download='saadman-resume.pdf'
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+
     return(
         <>
             <Header label={'ABOUT ME'}></Header>
@@ -29,11 +39,18 @@ const AboutMe=()=>{
                     </tr>
                     <tr>
                         <td>Languages: <br className='md:hidden'/> English, Bangla</td>
+                        <td>Country: <br className='md:hidden'/> Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Employment Status: <br className='md:hidden'/> <b className='text-green-600'>Actively Seeking</b></td>
+                        <td>Open To: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
+                    </tr>
+                    <tr>
+                        <td>Fun Fact: <br className='md:hidden'/> I make the best cup of Tea</td>
                         <td>Hobbies: <br className='md:hidden'/> Reading, Gaming, Traveling</td>
                     </tr>
                     <tr>
-                        <td>Country: <br className='md:hidden'/> Bangladesh</td>
-                        <td>Fun Fact: <br className='md:hidden'/> I make the best cup of Tea</td>
+                        <td onClick={download}><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
                     </tr>
                 </tbody>
             </table>

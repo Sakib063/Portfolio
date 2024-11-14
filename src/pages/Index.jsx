@@ -4,6 +4,7 @@ import animation from '../assets/Animation - 1730385140839.json'
 import Lottie from "lottie-react";
 import {useEffect, useState} from "react";
 import Header from "../components/header.jsx";
+import ButtonBig from "../components/button_big.jsx";
 const Index=()=>{
     const[isLoading,setIsLoading]=useState(true)
     useEffect(()=>{
@@ -43,6 +44,9 @@ const Index=()=>{
                         field and
                         become a successful individual.
                     </p>
+                    <div className='my-8 ml-0 md:mx-auto'>
+                        <ButtonBig label={'more about me'} icon={'arrow-forward-sharp'} link={'/about-me'}/>
+                    </div>
                 </div>
             </div>
         </>

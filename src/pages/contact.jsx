@@ -1,6 +1,7 @@
 import Header from "../components/header.jsx";
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
+import ButtonBig from "../components/button_big.jsx";
 
 const Contact=()=>{
     const form=useRef()
@@ -49,15 +50,20 @@ const Contact=()=>{
                             +8801635028005
                         </span>
                     </p>
+                    <p className='my-8 flex justify-center'>
+                        <a href='https://github.com/Sakib063' target="_blank" className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href='https://www.linkedin.com/in/saadman-sakib-mihad-507000279/' target="_blank" className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href='https://www.facebook.com/share/14hPRpySP1/' target="_blank" className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'><ion-icon name="logo-facebook"></ion-icon></a>
+                    </p>
                 </div>
                 <div>
                     <form ref={form} onSubmit={send_mail}>
-                        <input type='text' name='form_name' placeholder='Your Name' className='bg-[#252525] rounded-full p-2.5 mr-4 w-full sm:w-auto mt-12 mb-4 md:my-0'/>
-                        <input type='text' name='form_email' placeholder='Your Email' className='bg-[#252525] rounded-full p-2.5 mr-4 w-full sm:w-auto my-4 md:my-0'/>
-                        <input type='text' name='form_suject' placeholder='Your Subject' className='bg-[#252525] rounded-full p-2.5 w-full sm:w-auto my-4 md:my-0'/>
+                        <input type='text' name='form_name' autoComplete="off" placeholder='Your Name' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto mt-12 mb-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
+                        <input type='email' name='form_email' autoComplete="off" placeholder='Your Email' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
+                        <input type='text' name='form_suject' autoComplete="off" placeholder='Your Subject' className='bg-[#252525] rounded-full p-2.5 px-6 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
                         <br/>
-                        <textarea name='message' placeholder='Your Message' rows='5' className='bg-[#252525] w-full rounded-xl p-4 my-8'></textarea>
-                        <button type='submit'>THIS IS A SUBMIT BUTTON</button>
+                        <textarea name='message' autoComplete="off" placeholder='Your Message' rows='5' className='bg-[#252525] w-full rounded-xl p-4 my-8 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'></textarea>
+                        <button type='submit'><ButtonBig label={'Send a Message'} icon={'chatbox-sharp'} /></button>
                     </form>
                 </div>
             </div>
