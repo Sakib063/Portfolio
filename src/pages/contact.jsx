@@ -2,6 +2,7 @@ import Header from "../components/header.jsx";
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
 import ButtonBig from "../components/button_big.jsx";
+import Scroll from "../components/Scroll.jsx";
 
 const Contact=()=>{
     const form=useRef()
@@ -23,8 +24,9 @@ const Contact=()=>{
 
     return(
         <>
-            <Header label={'GET IN TOUCH'}></Header>
-            <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-10'>
+            <Header label={'GET IN TOUCH'} />
+            <Scroll />
+            <h1 className='hidden md:block text-white text-6xl font-black text-center leading-[62px] mt-10'>
                 GET IN <span className='text-[#8A2BE2]'>TOUCH</span>
             </h1>
             <div className='md:flex justify-between items-center mx-auto my-28 text-white w-11/12 md:w-3/5'>

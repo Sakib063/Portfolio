@@ -1,11 +1,13 @@
 import '../styles/global.css';
 import Header from "../components/header.jsx";
 import ButtonBig from "../components/button_big.jsx";
+import Scroll from "../components/Scroll.jsx";
 
 const Projects=()=>{
     return (
         <>
-            <Header label={'MY PROJECTS'}></Header>
+            <Header label={'MY PROJECTS'} />
+            <Scroll />
             <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-8'>
                 MY <span className='text-[#8A2BE2]'>PROJECTS</span>
             </h1>

@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import {useEffect, useState} from "react";
 import Header from "../components/header.jsx";
 import ButtonBig from "../components/button_big.jsx";
+import Scroll from "../components/Scroll.jsx";
 const Index=()=>{
     const[isLoading,setIsLoading]=useState(true)
     useEffect(()=>{
@@ -28,8 +29,9 @@ const Index=()=>{
 
     return(
         <>
+            <Header label={'HOME'} />
+            <Scroll />
             <div className='hidden lg:block bg-[#8A2BE2] h-[100%] w-screen [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] absolute top-0 left-0 -z-10 min-h-screen'></div>
-            <Header label={'HOME'}></Header>
             <div className='text-left relative flex flex-col lg:flex-row items-center justify-center min-h-screen'>
                 <img src={image} className='mb-20 rounded-full object-cover object-top block w-[220px] h-[220px] lg:block lg:ml-[5%] lg:mt-[5%] lg:rounded-lg lg:w-[521px] lg:h-[810px]'/>
                 <div className='flex flex-col items-center justify-center lg:block lg:ml-[20%]'>
