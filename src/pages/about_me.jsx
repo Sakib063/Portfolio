@@ -16,7 +16,7 @@ import ButtonCircle from "../components/button_circle.jsx";
 const AboutMe=()=>{
     const download=()=>{
         const link=document.createElement('a')
-        link.href='public/cv.pdf'
+        link.href='/cv.pdf'
         link.download='saadman-resume.pdf'
         document.body.appendChild(link)
         link.click()
