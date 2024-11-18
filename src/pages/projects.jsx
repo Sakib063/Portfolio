@@ -34,7 +34,7 @@ const Projects=()=>{
                 </h2>
                 <div className='w-3/4 flex flex-col sm:flex-row justify-between gap-6 items-center mx-auto mt-10'>
                     <div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     CEHRSR
@@ -48,21 +48,20 @@ const Projects=()=>{
                             </div>
                         </div>
                         <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     UIU Content Bank
                                 </h2>
-                                <p className='mt-4 text-white text-sm font-bold mb-4'>Java, JavaFX</p>
+                                <p className='mt-4 text-white text-sm font-bold mb-4'>Java, JavaFX, MySQL</p>
                                 <p className="text-white leading-normal">
-                                    A software developed with Java to upload, store, share and download
-                                    study materials such as pdf, images and papers. The GUI has been developed
-                                    with JavaFX.
+                                    A software developed using Java to upload, store, share and download
+                                    study materials such as pdf, images and research papers. The GUI has been developed
+                                    with JavaFX. A MySQL server acts as the database for this software.
                                 </p>
                             </div>
                         </div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     Smart Bike Parking
@@ -77,8 +76,7 @@ const Projects=()=>{
                         </div>
                     </div>
                     <div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     Easy E-waste
@@ -91,8 +89,7 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     Funding Future
@@ -101,12 +98,12 @@ const Projects=()=>{
                                     JavaScript</p>
                                 <p className="text-white leading-normal">
                                     A web-application to create donation campaign and donate money to
-                                    selected campaigns using mobile or online banking.
+                                    selected campaigns using mobile or online banking. This web-application has the feature to create
+                                    donation campaigns and keep track of the donations. A donation goal can also be set for a campaign.
                                 </p>
                             </div>
                         </div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-base font-bold text-center">
                                     Home Automation for Physically Challenged Individuals
@@ -123,8 +120,7 @@ const Projects=()=>{
                         </div>
                     </div>
                     <div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     AutoCare System
@@ -139,13 +135,12 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     Covid Registration
                                 </h2>
-                                <p className='mt-4 text-white text-sm font-bold mb-4'>Laravel</p>
+                                <p className='my-4 md:mt-4 text-white text-sm font-bold mb-4'>Laravel</p>
                                 <p className="text-white leading-normal my-4 text-sm">
                                     A web-application for users to register and choose their desired vaccination
                                     centers. This has an automated system that assigns vaccination dates to
@@ -158,17 +153,16 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg w-96 h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
                                 <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
                                     Firefighting Robot
                                 </h2>
-                                <p className='mt-4 text-white text-sm font-bold'>Arduino, ESP32-CAM, Yolov8, C++,
-                                    Python</p>
+                                <p className='my-4 md:mt-4 text-white text-sm font-bold'>Arduino, ESP32-CAM, YoloV8, C++, Python</p>
                                 <p className="text-white leading-normal">
                                     A four wheeled iot based robot that detects fire using
-                                    computer vision and extinguishes fire via water pump.
+                                    computer vision and extinguishes fire via water pump. This robot has been trained with YoloV8 model
+                                    to detect fire.
                                 </p>
                             </div>
                         </div>
@@ -182,13 +176,13 @@ const Projects=()=>{
                     MY <span className='text-[#8A2BE2]'>PUBLICATIONS</span>
                 </h2>
                 <div className='w-4/5 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
-                    <p className='md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and
+                    <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and
                         Bolster Agricultural Farm Security</p>
                     <p className='my-4'>
                         Significant threats to ecological equilibrium and sustainable agriculture are posed by
-                        the extinction of animal species and the subsequent effects on farms. Farmers face
+                        the extinction of endangered animal species and the subsequent effects on farms. Farmers face
                         difficult decisions, such as installing electric fences to protect their farms,
-                        although these measures can harm animals essential for maintaining ecological
+                        although these measures can harm animals who are facing the threat of extinction and essential for maintaining ecological
                         equilibrium. To tackle these essential issues, this research introduces an innovative
                         solution in the form of an object-detection system.
                     </p>

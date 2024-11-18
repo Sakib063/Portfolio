@@ -205,7 +205,7 @@ const Stories=()=>{
                     </div>
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'>#RedefiningDiplomacy</h2>
+                    <h2 className='text-center text-4xl'>#Redefining<br className='md:hidden'/>Diplomacy</h2>
                     <img src={mun} className='md:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
                     <div className='flex flex-col md:flex-row mt-10'>
                         <div className='md:w-1/2'>
