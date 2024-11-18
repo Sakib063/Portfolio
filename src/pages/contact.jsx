@@ -59,18 +59,16 @@ const Contact=()=>{
                         </p>
                         <p className='text-5xl flex'>
                             <ion-icon name="mail-unread-sharp"></ion-icon>
-                            <span className='text-sm ml-2 my-auto'>
+                            <span className='text-base ml-2 my-auto'>
                                 Mail Me
-                                <br/>
-                                saadmansakib275@gmail.com
+                                <p className='text-sm'>saadmansakib275@gmail.com</p>
                             </span>
                         </p>
                         <p className='text-5xl flex my-4'>
                             <ion-icon name="phone-portrait"></ion-icon>
-                            <span className='text-sm ml-2 my-auto'>
+                            <span className='text-base ml-2 my-auto'>
                                 Call Me
-                                <br/>
-                                +8801635028005
+                                <p className='text-sm'>+8801635028005</p>
                             </span>
                         </p>
                         <p className='my-8 flex justify-center'>
@@ -90,11 +88,11 @@ const Contact=()=>{
                     </div>
                     <div>
                         <form ref={form} onSubmit={send_mail}>
-                            <input type='text' name='name' autoComplete="off" placeholder='Your Name' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto mt-12 mb-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
-                            <input type='email' name='email' autoComplete="off" placeholder='Your Email' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
-                            <input type='text' name='form_subject' autoComplete="off" placeholder='Your Subject' className='bg-[#252525] rounded-full p-2.5 px-6 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
+                            <input type='text' name='name' autoComplete="off" placeholder='Your Name' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto mt-12 mb-4 md:my-0 focus:outline-none focus:border-[#068BF7] focus:ring focus:ring-[#068BF7]'/>
+                            <input type='email' name='email' autoComplete="off" placeholder='Your Email' className='bg-[#252525] rounded-full p-2.5 px-6 mr-4 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#068BF7] focus:ring focus:ring-[#068BF7]'/>
+                            <input type='text' name='form_subject' autoComplete="off" placeholder='Your Subject' className='bg-[#252525] rounded-full p-2.5 px-6 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#068BF7] focus:ring focus:ring-[#068BF7]'/>
                             <br/>
-                            <textarea name='message' autoComplete="off" placeholder='Your Message' rows='5' className='bg-[#252525] w-full rounded-xl p-4 my-8 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'></textarea>
+                            <textarea name='message' autoComplete="off" placeholder='Your Message' rows='5' className='bg-[#252525] w-full rounded-xl p-4 my-8 focus:outline-none focus:border-[#068BF7] focus:ring focus:ring-[#068BF7]'></textarea>
                             <button type='submit'><ButtonLink label={'Send Your Message'} icon={'chatbox-sharp'} /></button>
                         </form>
                     </div>

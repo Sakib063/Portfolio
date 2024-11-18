@@ -169,7 +169,7 @@ const Projects=()=>{
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-end w-11/12 my-16 mr-12'>
+                <div className='flex justify-end w-3/4 mx-auto my-16'>
                     <ButtonLink label={'Check out my github'} link={'https://github.com/Sakib063'} icon={'logo-github'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>

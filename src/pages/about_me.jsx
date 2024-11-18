@@ -16,7 +16,7 @@ import ButtonCircle from "../components/button_circle.jsx";
 const AboutMe=()=>{
     const download=()=>{
         const link=document.createElement('a')
-        link.href='src/assets/cv.pdf'
+        link.href='public/cv.pdf'
         link.download='saadman-resume.pdf'
         document.body.appendChild(link)
         link.click()
@@ -47,35 +47,38 @@ const AboutMe=()=>{
                     ABOUT <span className='text-[#068BF7]'>ME</span>
                 </h1>
                 <p className='text-white font-bold text-center text-[26px] mt-8 pt-10'>Personal Information</p>
-                <table className='text-white mt-8 md:text-[18px] text-[14px] mx-auto border-separate border-spacing-y-5 border-spacing-x-2 md:border-spacing-x-52'>
+                <table className='text-white mt-8 md:text-lg mx-auto border-separate border-spacing-y-5 border-spacing-x-2 md:border-spacing-x-60'>
                     <tbody>
                     <tr>
-                        <td>Fullname: <br className='md:hidden'/> Saadman Sakib</td>
-                        <td>Address: <br className='md:hidden'/> Mirpur, Dhaka</td>
+                        <td><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
+                        <td><b className='font-black text-right'>Address</b>: <br className='md:hidden'/> Mirpur, Dhaka</td>
                     </tr>
                     <tr>
-                        <td>Age: <br className='md:hidden'/> 24</td>
-                        <td>Blood-Group: <br className='md:hidden'/> O +ve</td>
+                        <td><b className='font-black'>Age</b>: <br className='md:hidden'/> 24</td>
+                        <td><b className='font-black'>Blood-Group</b>: <br className='md:hidden'/> O +ve</td>
                     </tr>
                     <tr>
-                        <td>Languages: <br className='md:hidden'/> English, Bangla</td>
-                        <td>Country: <br className='md:hidden'/> Bangladesh</td>
+                        <td><b className='font-black'>Languages</b>: <br className='md:hidden'/> English, Bangla</td>
+                        <td><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
                     </tr>
                     <tr>
-                        <td>Employment Status: <br className='md:hidden'/> <b className='text-green-600'>Actively
+                        <td><b className='font-black'>Employment Status</b>: <br className='md:hidden'/> <b className='text-green-600'>Actively
                             Seeking</b></td>
-                        <td>Open To: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
+                        <td><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
                     </tr>
                     <tr>
-                        <td>Fun Fact: <br className='md:hidden'/> I make the best cup of Tea</td>
-                        <td>Hobbies: <br className='md:hidden'/> Reading, Gaming, Traveling</td>
+                        <td><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup of Tea</td>
+                        <td><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Reading, Gaming, Traveling</td>
                     </tr>
                     <tr>
-                        <td onClick={download}><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
+
                     </tr>
                     </tbody>
                 </table>
-                <div className='flex justify-center my-14 md:justify-end md:w-11/12'>
+                <div onClick={download} className='my-8 mx-auto flex md:justify-start w-[98%] md:w-1/2'>
+                    <ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/>
+                </div>
+                <div className='flex justify-center my-14 mx-auto md:justify-end md:w-3/5'>
                     <ButtonBig label={'More of Me'} icon={'arrow-forward-sharp'} link={'/my-stories'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
@@ -97,7 +100,7 @@ const AboutMe=()=>{
                         <img src={prisma} className='w-44 h-44 object-contain my-10'/>
                     </div>
                 </div>
-                <div className='flex justify-center my-14 md:justify-end md:w-11/12'>
+                <div className='flex justify-center my-14 mx-auto md:justify-end md:w-3/5'>
                     <ButtonBig label={'Explore More'} icon={'arrow-forward-sharp'} link={'/projects'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>

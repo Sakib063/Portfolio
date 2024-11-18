@@ -1,7 +1,6 @@
-import image from '../assets/IMG_20241031_214626_931.jpg'
+import image from '../assets/self.jpg'
 import Header from "../components/header.jsx";
 import ButtonBig from "../components/button_big.jsx";
-import Scroll from "../components/Scroll.jsx";
 import Animate from "../components/animate.jsx";
 import ButtonCircle from "../components/button_circle.jsx";
 const Index=()=>{
@@ -9,7 +8,6 @@ const Index=()=>{
         <>
             <Animate>
                 <Header label={'HOME'}/>
-                <Scroll/>
                 <div className='hidden text-white md:block fixed right-10 top-[35%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} page={true}/>
                 </div>
@@ -27,7 +25,7 @@ const Index=()=>{
                 </div>
                 <div className='hidden md:block bg-[#068BF7] h-screen w-full [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] fixed top-0 left-0 -z-10'></div>
                 <div className='text-left relative flex flex-col lg:flex-row items-center justify-center'>
-                    <img src={image} className='my-20 rounded-full object-cover object-top block w-[220px] h-[220px] lg:block lg:ml-[5%] lg:mt-[5%] lg:rounded-lg lg:w-[521px] lg:h-[810px]'/>
+                    <img src={image} className='my-20 rounded-full object-cover object-mid block w-[220px] h-[220px] lg:block lg:ml-[5%] lg:mt-[5%] lg:rounded-lg lg:w-[521px] lg:h-[810px]'/>
                     <div className='flex flex-col items-center justify-center lg:block lg:ml-[20%]'>
                         <h1 className='text-[35px] font-bold text-[#068BF7] text-left w-[80%] md:text-center lg:text-left lg:text-[55px]'>I'M SAADMAN</h1>
                         <p className='text-[30px] font-bold text-white text-left w-[80%] md:text-center lg:text-left lg:text-[50px]'>SOFTWARE ENGINEER</p>
