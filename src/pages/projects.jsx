@@ -176,7 +176,7 @@ const Projects=()=>{
                 <h2 className='text-3xl md:block text-white md:text-5xl font-black text-center leading-[62px] my-10'>
                     MY <span className='text-[#068BF7]'>PUBLICATIONS</span>
                 </h2>
-                <div className='w-4/5 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
+                <div className='w-3/4 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
                     <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and
                         Bolster Agricultural Farm Security</p>
                     <p className='my-4'>

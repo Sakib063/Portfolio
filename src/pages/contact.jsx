@@ -75,15 +75,15 @@ const Contact=()=>{
                         </p>
                         <p className='my-8 flex justify-center'>
                             <a href='https://github.com/Sakib063' target="_blank"
-                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'>
+                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#068BF7] rounded-full flex justify-center items-center'>
                                 <ion-icon name="logo-github"></ion-icon>
                             </a>
                             <a href='https://www.linkedin.com/in/saadman-sakib-mihad-507000279/' target="_blank"
-                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'>
+                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#068BF7] rounded-full flex justify-center items-center'>
                                 <ion-icon name="logo-linkedin"></ion-icon>
                             </a>
                             <a href='https://www.facebook.com/share/14hPRpySP1/' target="_blank"
-                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#8A2BE2] rounded-full flex justify-center items-center'>
+                               className='m-4 text-3xl p-2 bg-[#252525] hover:bg-[#068BF7] rounded-full flex justify-center items-center'>
                                 <ion-icon name="logo-facebook"></ion-icon>
                             </a>
                         </p>
