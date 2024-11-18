@@ -18,7 +18,7 @@ const Scroll=()=>{
     }, []);
 
     return (
-        <div className="fixed top-0 left-0 h-1 z-50" style={{ width: `${scrollProgress}%`, backgroundColor: '#8A2BE2' }}></div>
+        <div className="fixed top-0 left-0 h-1 z-50" style={{ width: `${scrollProgress}%`, backgroundColor: '#068BF7' }}></div>
     );
 };
 

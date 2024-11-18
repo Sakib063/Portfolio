@@ -25,11 +25,11 @@ const Index=()=>{
                 <div className='hidden text-white md:block fixed right-10 top-[63%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
-                <div className='hidden lg:block bg-[#8A2BE2] h-[100%] w-screen [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] absolute top-0 left-0 -z-10 min-h-screen'></div>
+                <div className='hidden lg:block bg-[#068BF7] h-[100%] w-screen [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] absolute top-0 left-0 -z-10 min-h-screen'></div>
                 <div className='text-left relative flex flex-col lg:flex-row items-center justify-center min-h-screen'>
                     <img src={image} className='my-20 rounded-full object-cover object-top block w-[220px] h-[220px] lg:block lg:ml-[5%] lg:mt-[5%] lg:rounded-lg lg:w-[521px] lg:h-[810px]'/>
                     <div className='flex flex-col items-center justify-center lg:block lg:ml-[20%]'>
-                        <h1 className='text-[35px] font-bold text-[#8A2BE2] text-left w-[80%] md:text-center lg:text-left lg:text-[55px]'>I'M SAADMAN</h1>
+                        <h1 className='text-[35px] font-bold text-[#068BF7] text-left w-[80%] md:text-center lg:text-left lg:text-[55px]'>I'M SAADMAN</h1>
                         <p className='text-[30px] font-bold text-white text-left w-[80%] md:text-center lg:text-left lg:text-[50px]'>SOFTWARE ENGINEER</p>
                         <p className='w-[80%] text-[15px] font-[400] text-white text-left lg:w-[50%]'>
                             Greetings and salutations, I am Saadman a programming enthusiast and a skilled software

@@ -48,7 +48,7 @@ const Contact=()=>{
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} page={true}/>
                 </div>
                 <h1 className='hidden md:block text-white text-6xl font-black text-center leading-[62px] mt-10'>
-                    GET IN <span className='text-[#8A2BE2]'>TOUCH</span>
+                    GET IN <span className='text-[#068BF7]'>TOUCH</span>
                 </h1>
                 <div className='md:flex justify-between items-center mx-auto my-28 text-white w-11/12 md:w-3/5'>
                     <div className='md:w-1/4 text-left'>

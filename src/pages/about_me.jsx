@@ -44,7 +44,7 @@ const AboutMe=()=>{
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-10'>
-                    ABOUT <span className='text-[#8A2BE2]'>ME</span>
+                    ABOUT <span className='text-[#068BF7]'>ME</span>
                 </h1>
                 <p className='text-white font-bold text-center text-[26px] mt-8 pt-10'>Personal Information</p>
                 <table className='text-white mt-8 md:text-[18px] text-[14px] mx-auto border-separate border-spacing-y-5 border-spacing-x-2 md:border-spacing-x-52'>
@@ -109,7 +109,7 @@ const AboutMe=()=>{
                     <tr>
                         <td className='align-text-top'>
                             <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2024</small>
@@ -119,7 +119,7 @@ const AboutMe=()=>{
                             <p className='mb-1'>CGPA: 3.45</p>
                         </td>
                         <td className='align-text-top'>
-                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>May,2024 - August,2024</small>
@@ -129,7 +129,7 @@ const AboutMe=()=>{
                     </tr>
                     <tr>
                         <td className='align-text-top'>
-                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2019</small>
@@ -138,7 +138,7 @@ const AboutMe=()=>{
                             <p className='mb-1'>GPA: 4.00</p>
                         </td>
                         <td className='align-text-top'>
-                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2021 - 2022</small>
@@ -148,7 +148,7 @@ const AboutMe=()=>{
                     </tr>
                     <tr>
                         <td className='align-text-top'>
-                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2017</small>
@@ -163,7 +163,7 @@ const AboutMe=()=>{
                     <p className='text-white font-bold text-left text-[26px] mt-8'>Experience</p>
                     <ul className='text-white mt-8 space-y-8'>
                         <li className='gap-2'>
-                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
+                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>May, 2024 - August, 2024</small>
@@ -173,7 +173,7 @@ const AboutMe=()=>{
                             </div>
                         </li>
                         <li className='gap-2'>
-                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
+                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2021 - 2022</small>
@@ -186,7 +186,7 @@ const AboutMe=()=>{
                     <p className='text-white font-bold text-left text-[26px] mt-8'>Education</p>
                     <ul className='text-white mt-8 space-y-8'>
                         <li className='gap-2'>
-                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
+                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2024</small>
@@ -198,7 +198,7 @@ const AboutMe=()=>{
                             </div>
                         </li>
                         <li className='gap-2'>
-                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
+                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2019</small>
@@ -210,7 +210,7 @@ const AboutMe=()=>{
                         </li>
 
                         <li className='gap-2'>
-                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
+                            <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
                             <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2017</small>

@@ -28,16 +28,16 @@ const Projects=()=>{
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-8'>
-                    MY <span className='text-[#8A2BE2]'>PROJECTS</span>
+                    MY <span className='text-[#068BF7]'>PROJECTS</span>
                 </h1>
                 <h2 className='text-4xl md:hidden text-white md:text-5xl font-black text-center leading-[62px] my-20'>
-                    MY <span className='text-[#8A2BE2]'>PROJECTS</span>
+                    MY <span className='text-[#068BF7]'>PROJECTS</span>
                 </h2>
                 <div className='w-3/4 flex flex-col sm:flex-row justify-between gap-6 items-center mx-auto mt-10'>
                     <div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     CEHRSR
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>NextJS14,Multichain,PostgreSQL,spaCy</p>
@@ -49,9 +49,9 @@ const Projects=()=>{
                             </div>
                         </div>
                         <div
-                            className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                            className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     UIU Content Bank
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>Java, JavaFX, MySQL</p>
@@ -62,9 +62,9 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     Smart Bike Parking
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>Arduino, C++</p>
@@ -77,9 +77,9 @@ const Projects=()=>{
                         </div>
                     </div>
                     <div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     Easy E-waste
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>Laravel, Bootstrap, MySQL</p>
@@ -90,9 +90,9 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     Funding Future
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>PHP, HTML, CSS, Bootstrap, MySQL,
@@ -104,9 +104,9 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-base font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-2xl font-bold text-center">
                                     Home Automation for Physically Challenged Individuals
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>Arduino, ESP32, C++, php,
@@ -121,9 +121,9 @@ const Projects=()=>{
                         </div>
                     </div>
                     <div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     AutoCare System
                                 </h2>
                                 <p className='mt-4 text-white text-sm font-bold mb-4'>PHP, HTML, CSS, MySQL,
@@ -136,9 +136,9 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     Covid Registration
                                 </h2>
                                 <p className='my-4 md:mt-4 text-white text-sm font-bold mb-4'>Laravel</p>
@@ -154,9 +154,9 @@ const Projects=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="m-6 bg-[#252525] border border-[#8A2BE2] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
+                        <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full h-full md:w-96 md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
-                                <h2 className="mb-2 text-[#8A2BE2] text-4xl font-bold text-center">
+                                <h2 className="mb-2 text-[#068BF7] text-4xl font-bold text-center">
                                     Firefighting Robot
                                 </h2>
                                 <p className='my-4 md:mt-4 text-white text-sm font-bold'>Arduino, ESP32-CAM, YoloV8, C++, Python</p>
@@ -174,7 +174,7 @@ const Projects=()=>{
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
                 <h2 className='text-3xl md:block text-white md:text-5xl font-black text-center leading-[62px] my-10'>
-                    MY <span className='text-[#8A2BE2]'>PUBLICATIONS</span>
+                    MY <span className='text-[#068BF7]'>PUBLICATIONS</span>
                 </h2>
                 <div className='w-4/5 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
                     <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and
@@ -188,7 +188,7 @@ const Projects=()=>{
                         solution in the form of an object-detection system.
                     </p>
                     <div className='flex justify-end text-center'>
-                        <button className='p-4 border border-[#8A2BE2] rounded-xl hover:bg-[#8A2BE2] duration-300'>
+                        <button className='p-4 border border-[#068BF7] rounded-xl hover:bg-[#068BF7] duration-300'>
                             <a target="_blank"
                                href='https://www.researchgate.net/publication/375816952_IoT-Based_Object-Detection_System_to_Safeguard_Endangered_Animals_and_Bolster_Agricultural_Farm_Security'>
                                 Read all about it

@@ -28,10 +28,10 @@ const Stories=()=>{
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-6xl font-black text-center leading-[62px] mt-10'>
-                    MY <span className='text-[#8A2BE2]'>STORIES</span>
+                    MY <span className='text-[#068BF7]'>STORIES</span>
                 </h1>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'>Team Error Sage</h2>
+                    <h2 className='text-center text-4xl'>Team <span className='text-[#068BF7]'>Error Sage</span></h2>
                     <div className='flex flex-col md:flex-row my-10'>
                         <img src={eee} className='w-auto h-auto md:w-1/2 mx-4 my-8 md:my-0'/>
                         <div>
@@ -97,7 +97,7 @@ const Stories=()=>{
                     </div>
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'>Journey To Techkriti</h2>
+                    <h2 className='text-center text-4xl'>Journey To <span className='text-[#068BF7]'>Techkriti</span></h2>
                     <img src={tech} className='md:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
                     <div className='flex flex-col md:flex-row my-10'>
                         <div className='md:w-1/2'>
@@ -151,7 +151,7 @@ const Stories=()=>{
                     </div>
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'>Blockchain Saga</h2>
+                    <h2 className='text-center text-4xl'><span className='text-[#068BF7]'>Blockchain</span> Saga</h2>
                     <div className='flex flex-col md:flex-row my-10'>
                         <img src={block} className='w-auto h-auto md:w-1/2 mx-4 my-8 md:my-0'/>
                         <div>
@@ -205,7 +205,7 @@ const Stories=()=>{
                     </div>
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'>#Redefining<br className='md:hidden'/>Diplomacy</h2>
+                    <h2 className='text-center text-4xl text-[#068BF7]'>#Redefining<br className='md:hidden'/><span className='text-white'>Diplomacy</span></h2>
                     <img src={mun} className='md:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
                     <div className='flex flex-col md:flex-row mt-10'>
                         <div className='md:w-1/2'>
