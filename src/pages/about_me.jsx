@@ -47,8 +47,7 @@ const AboutMe=()=>{
                     ABOUT <span className='text-[#8A2BE2]'>ME</span>
                 </h1>
                 <p className='text-white font-bold text-center text-[26px] mt-8 pt-10'>Personal Information</p>
-                <table
-                    className='text-white mt-8 md:text-[18px] text-[14px] mx-auto border-separate border-spacing-y-5 border-spacing-x-8 md:border-spacing-x-52'>
+                <table className='text-white mt-8 md:text-[18px] text-[14px] mx-auto border-separate border-spacing-y-5 border-spacing-x-2 md:border-spacing-x-52'>
                     <tbody>
                     <tr>
                         <td>Fullname: <br className='md:hidden'/> Saadman Sakib</td>
@@ -76,9 +75,8 @@ const AboutMe=()=>{
                     </tr>
                     </tbody>
                 </table>
-                <div className='flex justify-center my-14 md:justify-end md:w-11/12'><ButtonBig label={'More of Me'}
-                                                                                                icon={'arrow-forward-sharp'}
-                                                                                                link={'/my-stories'}/>
+                <div className='flex justify-center my-14 md:justify-end md:w-11/12'>
+                    <ButtonBig label={'More of Me'} icon={'arrow-forward-sharp'} link={'/my-stories'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
                 <p className='text-white font-bold text-center text-[26px] mt-8'>MY SKILLS</p>
@@ -99,15 +97,14 @@ const AboutMe=()=>{
                         <img src={prisma} className='w-44 h-44 object-contain my-10'/>
                     </div>
                 </div>
-                <div className='flex justify-center my-14 md:justify-end md:w-11/12'><ButtonBig label={'Explore More'}
-                                                                                                icon={'arrow-forward-sharp'}
-                                                                                                link={'/projects'}/>
+                <div className='flex justify-center my-14 md:justify-end md:w-11/12'>
+                    <ButtonBig label={'Explore More'} icon={'arrow-forward-sharp'} link={'/projects'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
-                <p className='hidden md:block text-white font-bold text-center text-[26px] mt-8'>Education &
-                    Experience</p>
-                <table
-                    className='hidden md:table text-white mt-8 md:text-[20px] sm:text-[14px] mx-auto border-separate border-spacing-y-10 md:border-spacing-x-56'>
+                <p className='hidden md:block text-white font-bold text-center text-[26px] mt-8'>
+                    Education & Experience
+                </p>
+                <table className='hidden md:table text-white mt-8 md:text-[20px] sm:text-[14px] mx-auto border-separate border-spacing-y-10 md:border-spacing-x-56'>
                     <tbody>
                     <tr>
                         <td className='align-text-top'>
@@ -115,56 +112,46 @@ const AboutMe=()=>{
                                 className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small
-                                className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2024</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2024</small>
                             <p className='mb-2.5'><b>B.Sc in CSE</b></p>
                             <p className='mb-1'>United International University</p>
                             <p className='mb-1'>Major: Software Engineer</p>
                             <p className='mb-1'>CGPA: 3.45</p>
                         </td>
                         <td className='align-text-top'>
-                            <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>May,2024
-                                -
-                                August,2024</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>May,2024 - August,2024</small>
                             <p className='mb-2.5'><b>Laravel Developer Intern</b></p>
                             <p className='mb-1'>Mircodeft</p>
                         </td>
                     </tr>
                     <tr>
                         <td className='align-text-top'>
-                            <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small
-                                className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2019</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2019</small>
                             <p className='mb-2.5'><b>Higher Secondary (School) Certificate (H.S.C)</b></p>
                             <p className='mb-1'>Monipur High School & College</p>
                             <p className='mb-1'>GPA: 4.00</p>
                         </td>
                         <td className='align-text-top'>
-                            <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2021 -
-                                2022</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2021 - 2022</small>
                             <p className='mb-2.5'><b>IT Support</b></p>
                             <p className='mb-1'>Quantabit</p>
                         </td>
                     </tr>
                     <tr>
                         <td className='align-text-top'>
-                            <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#8A2BE2] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small
-                                className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2017</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2017</small>
                             <p className='mb-2.5'><b>Secondary School Certificate (S.S.C)</b></p>
                             <p className='mb-1'>Monipur High School & College</p>
                             <p className='mb-1'>GPA: 5.00</p>
@@ -179,8 +166,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#8A2BE2]'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>May, 2024 - August,
-                                2024</small>
+                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>May, 2024 - August, 2024</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>Laravel Developer Intern</b></p>
                                 <p className='mb-1'>Mircodeft</p>

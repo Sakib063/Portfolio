@@ -4,6 +4,7 @@ import ButtonBig from "../components/button_big.jsx";
 import Scroll from "../components/Scroll.jsx";
 import Animate from "../components/animate.jsx";
 import ButtonCircle from "../components/button_circle.jsx";
+import ButtonLink from "../components/button_link.jsx";
 
 const Projects=()=>{
     return (
@@ -169,7 +170,7 @@ const Projects=()=>{
                     </div>
                 </div>
                 <div className='flex justify-end w-11/12 my-16 mr-12'>
-                    <ButtonBig label={'Check out my github'} link={'https://github.com/Sakib063'} icon={'logo-github'}/>
+                    <ButtonLink label={'Check out my github'} link={'https://github.com/Sakib063'} icon={'logo-github'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
                 <h2 className='text-3xl md:block text-white md:text-5xl font-black text-center leading-[62px] my-10'>

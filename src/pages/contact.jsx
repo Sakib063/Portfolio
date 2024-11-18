@@ -1,10 +1,11 @@
 import Header from "../components/header.jsx";
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
-import ButtonBig from "../components/button_big.jsx";
 import Scroll from "../components/Scroll.jsx";
 import Animate from "../components/animate.jsx";
 import ButtonCircle from "../components/button_circle.jsx";
+import ButtonLink from "../components/button_link.jsx";
+import {toast, Toaster} from "react-hot-toast";
 
 const Contact=()=>{
     const form=useRef()
@@ -15,17 +16,19 @@ const Contact=()=>{
             publicKey:'S9nQhuUlez6wAQ0QD'
         }).then(
             ()=>{
-                alert('successfully sent mail')
+                toast.success('Mail Sent Successfully!')
                 form.current.reset();
             },
-            (error)=>{
-                console.log('Error ',error.text)
+            (err)=>{
+                toast.error("An Error Occurred.")
+                console.log(err.text)
             }
         )
     }
 
     return(
         <>
+            <Toaster position="top-right" reverseOrder={false} />
             <Animate>
                 <Header label={'GET IN TOUCH'}/>
                 <Scroll/>
@@ -92,7 +95,7 @@ const Contact=()=>{
                             <input type='text' name='form_subject' autoComplete="off" placeholder='Your Subject' className='bg-[#252525] rounded-full p-2.5 px-6 w-full sm:w-auto my-4 md:my-0 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'/>
                             <br/>
                             <textarea name='message' autoComplete="off" placeholder='Your Message' rows='5' className='bg-[#252525] w-full rounded-xl p-4 my-8 focus:outline-none focus:border-[#8A2BE2] focus:ring focus:ring-[#8A2BE2]'></textarea>
-                            <button type='submit'><ButtonBig label={'Send a Message'} icon={'chatbox-sharp'} /></button>
+                            <button type='submit'><ButtonLink label={'Send Your Message'} icon={'chatbox-sharp'} /></button>
                         </form>
                     </div>
                 </div>
