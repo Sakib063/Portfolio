@@ -8,7 +8,7 @@ const Index=()=>{
     return(
         <>
             <Animate>
-                <Header label={'HOME'}/>
+                <Header label={'PORTFOLIO'}/>
                 <Scroll/>
                 <div className='hidden text-white md:block fixed right-10 top-[30%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} page={true}/>
@@ -26,7 +26,7 @@ const Index=()=>{
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <div className='hidden md:block bg-[#068BF7] h-screen w-full [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] fixed top-0 left-0 -z-10'></div>
-                <div className='text-left relative flex flex-col lg:flex-row items-center justify-center'>
+                <div className='text-left relative flex flex-col lg:flex-row items-center justify-center w-11/12'>
                     <img src={image} className='mt-28 mb-16 rounded-full object-cover object-mid block w-[220px] h-[220px] lg:block lg:ml-[5%] lg:mt-[5%] lg:rounded-lg lg:w-[521px] lg:h-auto'/>
                     <div className='flex flex-col items-center justify-center lg:block lg:ml-60'>
                         <h1 className='text-4xl font-bold text-[#068BF7] text-left w-4/5 lg:text-5xl'>I'M SAADMAN</h1>

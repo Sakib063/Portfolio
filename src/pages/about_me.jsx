@@ -47,35 +47,33 @@ const AboutMe=()=>{
                     ABOUT <span className='text-[#068BF7]'>ME</span>
                 </h1>
                 <p className='text-white font-bold text-center text-3xl mt-8 pt-10'>Personal Information</p>
-                <table className='text-white w-4/5 mt-8 text-sm lg:text-lg mx-auto border-separate border-spacing-y-5 md:border-spacing-x-60'>
+                <table className='text-white w-full lg:w-3/5 mt-8 text-sm lg:text-lg mx-auto border-separate border-spacing-y-5'>
                     <tbody>
                     <tr>
-                        <td><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
-                        <td><b className='font-black text-right'>Address</b>: <br className='md:hidden'/> Mirpur, Dhaka</td>
+                        <td className="lg:block text-center"><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
+                        <td className="text-center"><b className='font-black'>Address</b>: <br className='md:hidden'/> Mirpur, Dhaka</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Age</b>: <br className='md:hidden'/> 24</td>
-                        <td><b className='font-black'>Blood-Group</b>: <br className='md:hidden'/> O +ve</td>
+                        <td className="text-center pr-40"><b className='font-black'>Age</b>: <br className='md:hidden'/> 24</td>
+                        <td className="text-center pr-6"><b className='font-black'>Blood-Group</b>: <br className='md:hidden'/> O +ve</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Languages</b>: <br className='md:hidden'/> English, Bangla</td>
-                        <td><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
+                        <td className="text-center pl-2"><b className='font-black'>Languages</b>: <br className='md:hidden'/> English, Bangla</td>
+                        <td className="text-center pr-4"><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Employment <br className='md:hidden'/>Status</b>: <br
-                            className='md:hidden'/> <b className='text-green-600'>Actively
-                            Seeking</b></td>
-                        <td><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, <br className='md:hidden'/>Hybrid</td>
+                        <td className="text-center"><b className='font-black'>Employment <br className='md:hidden'/>Status</b>: <br className='md:hidden'/> <b className='text-green-600'>Actively Seeking</b></td>
+                        <td className="text-center"><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup <br className='md:hidden'/>of Tea</td>
-                        <td><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Reading, Gaming, <br className='md:hidden'/>Traveling</td>
+                        <td className="text-center"><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup <br className='md:hidden'/>of Tea</td>
+                        <td className="text-center"><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Gaming, Traveling, Reading</td>
+                    </tr>
+                    <tr>
+                        <td className="text-center"><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
                     </tr>
                     </tbody>
                 </table>
-                <div onClick={download} className='mx-auto lg:mx-0 flex justify-start lg:justify-end w-4/5 my-4 lg:w-[35%]'>
-                    <ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/>
-                </div>
                 <div className='flex justify-center my-14 mx-auto md:justify-end md:w-3/5'>
                     <ButtonBig label={'More of Me'} icon={'arrow-forward-sharp'} link={'/my-stories'}/>
                 </div>

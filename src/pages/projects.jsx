@@ -177,8 +177,7 @@ const Projects=()=>{
                     MY <span className='text-[#068BF7]'>PUBLICATIONS</span>
                 </h2>
                 <div className='w-3/4 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
-                    <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and
-                        Bolster Agricultural Farm Security</p>
+                    <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and Bolster Agricultural Farm Security</p>
                     <p className='my-4'>
                         Significant threats to ecological equilibrium and sustainable agriculture are posed by
                         the extinction of endangered animal species and the subsequent effects on farms. Farmers face
