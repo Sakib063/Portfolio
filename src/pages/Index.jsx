@@ -10,19 +10,19 @@ const Index=()=>{
             <Animate>
                 <Header label={'HOME'}/>
                 <Scroll/>
-                <div className='hidden text-white md:block fixed right-10 top-[25%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[30%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} page={true}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[35%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[40%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'ABOUT'} icon={'person-sharp'} link={'/about-me'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[45%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[50%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'PROJECTS'} icon={'code-slash-sharp'} link={'/projects'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[55%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[60%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'STORIES'} icon={'book-sharp'} link={'/my-stories'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[65%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[70%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <div className='hidden md:block bg-[#068BF7] h-screen w-full [clip-path:polygon(0%_0%,15%_0%,25%_100%,0%_100%)] fixed top-0 left-0 -z-10'></div>

@@ -28,26 +28,26 @@ const AboutMe=()=>{
             <Animate>
                 <Header label={'ABOUT ME'}/>
                 <Scroll/>
-                <div className='hidden text-white lg:block fixed right-10 top-[35%] z-50'>
+                <div className='hidden text-white lg:block fixed right-10 top-[30%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} link={'/'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[42%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[40%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'ABOUT'} icon={'person-sharp'} page={true}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[49%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[50%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'PROJECTS'} icon={'code-slash-sharp'} link={'/projects'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[56%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[60%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'STORIES'} icon={'book-sharp'} link={'/my-stories'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[63%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[70%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-10'>
                     ABOUT <span className='text-[#068BF7]'>ME</span>
                 </h1>
-                <p className='text-white font-bold text-center text-[26px] mt-8 pt-10'>Personal Information</p>
-                <table className='text-white mt-8 md:text-lg mx-auto border-separate border-spacing-y-5 border-spacing-x-2 md:border-spacing-x-60'>
+                <p className='text-white font-bold text-center text-3xl mt-8 pt-10'>Personal Information</p>
+                <table className='text-white w-4/5 mt-8 text-sm lg:text-lg mx-auto border-separate border-spacing-y-5 md:border-spacing-x-60'>
                     <tbody>
                     <tr>
                         <td><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
@@ -62,17 +62,18 @@ const AboutMe=()=>{
                         <td><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Employment Status</b>: <br className='md:hidden'/> <b className='text-green-600'>Actively
+                        <td><b className='font-black'>Employment <br className='md:hidden'/>Status</b>: <br
+                            className='md:hidden'/> <b className='text-green-600'>Actively
                             Seeking</b></td>
-                        <td><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
+                        <td><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, <br className='md:hidden'/>Hybrid</td>
                     </tr>
                     <tr>
-                        <td><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup of Tea</td>
-                        <td><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Reading, Gaming, Traveling</td>
+                        <td><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup <br className='md:hidden'/>of Tea</td>
+                        <td><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Reading, Gaming, <br className='md:hidden'/>Traveling</td>
                     </tr>
                     </tbody>
                 </table>
-                <div onClick={download} className='my-8 mx-auto flex justify-start w-[98%] md:w-1/2'>
+                <div onClick={download} className='mx-auto lg:mx-0 flex justify-start lg:justify-end w-4/5 my-4 lg:w-[35%]'>
                     <ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/>
                 </div>
                 <div className='flex justify-center my-14 mx-auto md:justify-end md:w-3/5'>
