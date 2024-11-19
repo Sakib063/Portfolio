@@ -28,7 +28,7 @@ const AboutMe=()=>{
             <Animate>
                 <Header label={'ABOUT ME'}/>
                 <Scroll/>
-                <div className='hidden text-white md:block fixed right-10 top-[35%] z-50'>
+                <div className='hidden text-white lg:block fixed right-10 top-[35%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} link={'/'} page={false}/>
                 </div>
                 <div className='hidden text-white md:block fixed right-10 top-[42%] z-50'>
@@ -70,12 +70,9 @@ const AboutMe=()=>{
                         <td><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup of Tea</td>
                         <td><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Reading, Gaming, Traveling</td>
                     </tr>
-                    <tr>
-
-                    </tr>
                     </tbody>
                 </table>
-                <div onClick={download} className='my-8 mx-auto flex md:justify-start w-[98%] md:w-1/2'>
+                <div onClick={download} className='my-8 mx-auto flex justify-start w-[98%] md:w-1/2'>
                     <ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/>
                 </div>
                 <div className='flex justify-center my-14 mx-auto md:justify-end md:w-3/5'>

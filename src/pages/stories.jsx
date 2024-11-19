@@ -12,19 +12,19 @@ const Stories=()=>{
             <Animate>
                 <Header label={'MY STORIES'}/>
                 <Scroll/>
-                <div className='hidden text-white md:block fixed right-10 top-[35%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[30%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} link={'/'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[42%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[40%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'ABOUT'} icon={'person-sharp'} link={'/about-me'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[49%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[50%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'PROJECTS'} icon={'code-slash-sharp'} link={'/projects'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[56%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[60%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'STORIES'} icon={'book-sharp'} page={true}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[63%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[70%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-6xl font-black text-center leading-[62px] mt-10'>
@@ -206,7 +206,7 @@ const Stories=()=>{
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
                     <h2 className='text-center text-4xl text-[#068BF7]'>#Redefining<br className='md:hidden'/><span className='text-white'>Diplomacy</span></h2>
-                    <img src={mun} className='md:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
+                    <img src={mun} className='lg:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
                     <div className='flex flex-col md:flex-row mt-10'>
                         <div className='md:w-1/2'>
                             <p>

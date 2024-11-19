@@ -12,19 +12,19 @@ const Projects=()=>{
             <Animate>
                 <Header label={'MY PROJECTS'}/>
                 <Scroll/>
-                <div className='hidden text-white md:block fixed right-10 top-[35%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[30%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'HOME'} icon={'home-sharp'} link={'/'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[42%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[40%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'ABOUT'} icon={'person-sharp'} link={'/about-me'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[49%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[50%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'PROJECTS'} icon={'code-slash-sharp'} page={true}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[56%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[60%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'STORIES'} icon={'book-sharp'} link={'/my-stories'} page={false}/>
                 </div>
-                <div className='hidden text-white md:block fixed right-10 top-[63%] z-50'>
+                <div className='hidden text-white md:block fixed right-10 top-[70%] z-50'>
                     <ButtonCircle className='cursor-pointer' label={'CONTACT'} icon={'call-sharp'} link={'/contact'} page={false}/>
                 </div>
                 <h1 className='hidden md:block text-white text-[60px] font-black text-center leading-[62px] mt-8'>
@@ -172,7 +172,7 @@ const Projects=()=>{
                 <div className='flex justify-end w-3/4 mx-auto my-16'>
                     <ButtonLink label={'Check out my github'} link={'https://github.com/Sakib063'} icon={'logo-github'}/>
                 </div>
-                <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
+                <hr className='w-1/2 mx-auto my-10 lg:w-1/4 border-t-2 border-[#252525]'/>
                 <h2 className='text-3xl md:block text-white md:text-5xl font-black text-center leading-[62px] my-10'>
                     MY <span className='text-[#068BF7]'>PUBLICATIONS</span>
                 </h2>
