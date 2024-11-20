@@ -70,7 +70,7 @@ const AboutMe=()=>{
                         <td className="text-left lg:text-center pl-0 lg:pl-[134px]"><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Gaming, Traveling, Reading</td>
                     </tr>
                     <tr>
-                        <td className="text-left lg:text-center lg:pr-16 pr-0"><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
+                        <td className="text-left lg:text-center lg:pr-16 pr-0" onClick={download}><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
                     </tr>
                     </tbody>
                 </table>

@@ -33,7 +33,7 @@ const Projects=()=>{
                 <h2 className='text-4xl md:hidden text-white md:text-5xl font-black text-center leading-[62px] my-20'>
                     MY <span className='text-[#068BF7]'>PROJECTS</span>
                 </h2>
-                <div className='w-3/4 flex flex-col lg:flex-row justify-between gap-6 items-center mx-auto mt-10'>
+                <div className='w-11/12 lg:w-[1300px] flex flex-col lg:flex-row justify-between gap-6 items-center mx-auto mt-10'>
                     <div>
                         <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">
@@ -169,16 +169,16 @@ const Projects=()=>{
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-end w-3/4 mx-auto my-16'>
+                <div className='flex justify-end w-[1300px] mx-auto my-16 text-sm lg:text-base'>
                     <ButtonLink label={'Check out my github'} link={'https://github.com/Sakib063'} icon={'logo-github'}/>
                 </div>
                 <hr className='w-1/2 mx-auto my-10 lg:w-1/4 border-t-2 border-[#252525]'/>
                 <h2 className='text-3xl md:block text-white md:text-5xl font-black text-center leading-[62px] my-10'>
                     MY <span className='text-[#068BF7]'>PUBLICATIONS</span>
                 </h2>
-                <div className='w-3/4 mx-auto text-white m-4 p-4 bg-[#252525] justify-center items-center rounded-md'>
-                    <p className='font-bold md:text-3xl'>IoT-Based Object-Detection System to Safeguard Endangered Animals and Bolster Agricultural Farm Security</p>
-                    <p className='my-4'>
+                <div className='w-11/12 lg:w-[1300px] mx-auto text-white flex flex-col my-4 p-4 bg-[#252525] justify-between items-center rounded-md'>
+                    <p className='font-bold text-2xl lg:text-4xl text-center'>IoT-Based Object-Detection System to Safeguard Endangered Animals and Bolster Agricultural Farm Security</p>
+                    <p className='my-6'>
                         Significant threats to ecological equilibrium and sustainable agriculture are posed by
                         the extinction of endangered animal species and the subsequent effects on farms. Farmers face
                         difficult decisions, such as installing electric fences to protect their farms,
