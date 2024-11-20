@@ -42,8 +42,9 @@ const Index=()=>{
                             field and
                             become a successful individual.
                         </p>
-                        <div className='my-8 ml-0 md:mx-auto'>
+                        <div className='flex flex-col lg:flex-row gap-4 my-8 ml-0 md:mx-auto'>
                             <ButtonBig label={'more about me'} icon={'arrow-forward-sharp'} link={'/about-me'}/>
+                            <ButtonBig label={'my projects'} icon={'arrow-forward-sharp'} link={'/projects'}/>
                         </div>
                     </div>
                 </div>
