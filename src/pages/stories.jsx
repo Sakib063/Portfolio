@@ -32,9 +32,9 @@ const Stories=()=>{
                 </h1>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
                     <h2 className='text-center text-4xl'>Team <span className='text-[#068BF7]'>Error Sage</span></h2>
-                    <div className='flex flex-col md:flex-row my-10'>
-                        <img src={eee} className='w-auto h-auto md:w-1/2 mx-4 my-8 md:my-0'/>
-                        <div>
+                    <div className='flex flex-col my-10'>
+                        <img src={eee} className='w-auto lg:w-3/4 h-auto mx-auto'/>
+                        <div className='mt-8'>
                             <p>
                                 On February, 2022 I took the course Electronics. That had a lab course and each student
                                 in that class had to team up and make a group project. My university hosted a project
@@ -56,7 +56,6 @@ const Stories=()=>{
                                 he
                                 had thought about the idea. Based on that idea we developed and tweaked the features.
                                 <br/>
-                                <br/>
                                 After a month or so we begin making the project. The project had a hardware and software
                                 side.
                                 I mainly worked on the hardware side. It took us almost 2 weeks to completely finish the
@@ -68,7 +67,6 @@ const Stories=()=>{
                                 have
                                 gone to
                                 more journeys together.
-                                <br/>
                                 <br/>
                                 Finally the day of the project show came. We presented the project and the idea behind
                                 it to
@@ -98,9 +96,9 @@ const Stories=()=>{
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
                     <h2 className='text-center text-4xl'>Journey To <span className='text-[#068BF7]'>Techkriti</span></h2>
-                    <img src={tech} className='md:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
-                    <div className='flex flex-col md:flex-row my-10'>
-                        <div className='md:w-1/2'>
+                    <div className='flex flex-col my-10'>
+                        <img src={tech} className='w-auto lg:w-3/4 h-auto mx-auto'/>
+                        <div className='mt-8'>
                             <p>
                                 Somewhere at the middle of February one of my friends told me about an international
                                 contest in India called Techkriti. At that time it sounded like a dream to go to a
@@ -110,7 +108,6 @@ const Stories=()=>{
                                 ideas. One of my ideas was to build a home automation system for the physically
                                 challenged
                                 individuals and we proceeded with that idea.
-                                <br/>
                                 <br/>
                                 Over the course of three days we worked day and night to come up with a functional
                                 prototype. We presented that prototype to our department heads and with this prototype
@@ -129,7 +126,6 @@ const Stories=()=>{
                                 the
                                 Almighty we set foot in India.
                                 <br/>
-                                <br/>
                                 After 30 hours of traveling over bus, taxi, plane and on foot carrying pounds of baggage
                                 we
                                 managed to get to our destination. After 5 hours of sleep we got to work again.
@@ -147,14 +143,13 @@ const Stories=()=>{
                                 Thank you to Error Sage, you guys are awesome.
                             </p>
                         </div>
-                        <img src={tech} className='hidden md:block w-auto h-auto md:w-1/2 mx-4 my-8 md:my-0'/>
                     </div>
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
-                    <h2 className='text-center text-4xl'><span className='text-[#068BF7]'>Blockchain</span> Saga</h2>
-                    <div className='flex flex-col md:flex-row my-10'>
-                        <img src={block} className='w-auto h-auto md:w-1/2 mx-4 my-8 md:my-0'/>
-                        <div>
+                <h2 className='text-center text-4xl'><span className='text-[#068BF7]'>Blockchain</span> Saga</h2>
+                    <div className='flex flex-col my-10'>
+                        <img src={block} className='w-auto lg:w-3/4 h-auto mx-auto'/>
+                        <div className='mt-8'>
                             <p>
                                 At september 2023 I started my capstone course. It was a group project. I teamed
                                 up with 3 of my friends from Error Sage. And once again we faced the challenge of
@@ -164,7 +159,6 @@ const Stories=()=>{
                                 The first 4 months were spent on research. I was relatively new to the research area
                                 so it took me a while to get the hang of it. But as always I prevailed and we were quite
                                 satisfied with our research work.
-                                <br/>
                                 <br/>
                                 Now comes the most difficult time of my academic life. We had to make the actual system
                                 based on all that research we did on paper. We struggled a lot at first on how to
@@ -206,9 +200,9 @@ const Stories=()=>{
                 </div>
                 <div className='text-white my-24 md:mt-16 w-4/5 mx-auto'>
                     <h2 className='text-center text-4xl text-[#068BF7]'>#Redefining<br className='md:hidden'/><span className='text-white'>Diplomacy</span></h2>
-                    <img src={mun} className='lg:hidden w-auto h-auto md:w-1/2 my-8 md:my-0'/>
-                    <div className='flex flex-col md:flex-row mt-10'>
-                        <div className='md:w-1/2'>
+                    <div className='flex flex-col mt-10'>
+                        <img src={mun} className='w-auto lg:w-3/4 h-auto mx-auto'/>
+                        <div className='mt-8'>
                             <p>
                                 Back in 2018 Model United Nations(MUN) was the most trending extra curricular activity
                                 for
@@ -242,7 +236,6 @@ const Stories=()=>{
                             <br/>
                             <br/>
                         </div>
-                        <img src={mun} className='hidden md:block w-auto h-auto md:w-3/4 md:h-1/2 mx-4 my-8 md:my-0'/>
                     </div>
                     <p>
                         At that time I struggled with public speaking and speaking in english as I am not a native
