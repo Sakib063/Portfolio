@@ -33,7 +33,7 @@ const Projects=()=>{
                 <h2 className='text-4xl md:hidden text-white md:text-5xl font-black text-center leading-[62px] my-20'>
                     MY <span className='text-[#068BF7]'>PROJECTS</span>
                 </h2>
-                <div className='w-3/4 flex flex-col sm:flex-row justify-between gap-6 items-center mx-auto mt-10'>
+                <div className='w-3/4 flex flex-col lg:flex-row justify-between gap-6 items-center mx-auto mt-10'>
                     <div>
                         <div className="m-6 bg-[#252525] border border-[#068BF7] rounded-lg mx-auto w-full md:w-96 h-full md:h-[300px] overflow-hidden">
                             <div className="p-4 h-full flex flex-col justify-between">

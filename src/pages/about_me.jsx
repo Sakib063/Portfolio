@@ -47,30 +47,30 @@ const AboutMe=()=>{
                     ABOUT <span className='text-[#068BF7]'>ME</span>
                 </h1>
                 <p className='text-white font-bold text-center text-3xl mt-8 pt-10'>Personal Information</p>
-                <table className='text-white w-full lg:w-3/5 mt-8 text-sm lg:text-lg mx-auto border-separate border-spacing-y-5'>
+                <table className='text-white w-11/12 lg:w-3/5 mt-8 text-sm lg:text-lg mx-auto border-separate border-spacing-y-5'>
                     <tbody>
                     <tr>
-                        <td className="lg:block text-center"><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
-                        <td className="text-center"><b className='font-black'>Address</b>: <br className='md:hidden'/> Mirpur, Dhaka</td>
+                        <td className="text-left lg:text-center lg:pr-20 pr-0"><b className='font-black'>Fullname</b>: <br className='md:hidden'/> Saadman Sakib</td>
+                        <td className="text-left lg:text-center pl-0 lg:pl-6"><b className='font-black'>Address</b>: <br className='md:hidden'/> Mirpur, Dhaka</td>
                     </tr>
                     <tr>
-                        <td className="text-center pr-40"><b className='font-black'>Age</b>: <br className='md:hidden'/> 24</td>
-                        <td className="text-center pr-6"><b className='font-black'>Blood-Group</b>: <br className='md:hidden'/> O +ve</td>
+                        <td className="text-left lg:text-center lg:pr-60 pr-0"><b className='font-black'>Age</b>: <br className='md:hidden'/> 24</td>
+                        <td className="text-left lg:text-center"><b className='font-black'>Blood-Group</b>: <br className='md:hidden'/> O +ve</td>
                     </tr>
                     <tr>
-                        <td className="text-center pl-2"><b className='font-black'>Languages</b>: <br className='md:hidden'/> English, Bangla</td>
-                        <td className="text-center pr-4"><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
+                        <td className="text-left lg:text-center pr-0 lg:pr-16"><b className='font-black'>Languages</b>: <br className='md:hidden'/> English, Bangla</td>
+                        <td className="text-left lg:text-center pl-0 lg:pl-1"><b className='font-black'>Country</b>: <br className='md:hidden'/> Bangladesh</td>
                     </tr>
                     <tr>
-                        <td className="text-center"><b className='font-black'>Employment <br className='md:hidden'/>Status</b>: <br className='md:hidden'/> <b className='text-green-600'>Actively Seeking</b></td>
-                        <td className="text-center"><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
+                        <td className="text-left lg:text-center pr-0 lg:pl-10"><b className='font-black'>Employment <br className='md:hidden'/>Status</b>: <br className='md:hidden'/> <b className='text-green-600'>Actively Seeking</b></td>
+                        <td className="text-left lg:text-center pl-0 lg:pl-[110px]"><b className='font-black'>Open To</b>: <br className='md:hidden'/> On-Site, Remote, Hybrid</td>
                     </tr>
                     <tr>
-                        <td className="text-center"><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup <br className='md:hidden'/>of Tea</td>
-                        <td className="text-center"><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Gaming, Traveling, Reading</td>
+                        <td className="text-left lg:text-center"><b className='font-black'>Fun Fact</b>: <br className='md:hidden'/> I make the best cup <br className='md:hidden'/>of Tea</td>
+                        <td className="text-left lg:text-center pl-0 lg:pl-[134px]"><b className='font-black'>Hobbies</b>: <br className='md:hidden'/> Gaming, Traveling, Reading</td>
                     </tr>
                     <tr>
-                        <td className="text-center"><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
+                        <td className="text-left lg:text-center lg:pr-16 pr-0"><ButtonBig label={'Download cv'} icon={'cloud-download-sharp'}/></td>
                     </tr>
                     </tbody>
                 </table>
@@ -79,7 +79,7 @@ const AboutMe=()=>{
                 </div>
                 <hr className='w-1/2 mx-auto my-10 md:w-1/4 border-t-2 border-[#252525]'/>
                 <p className='text-white font-bold text-center text-[26px] mt-8'>MY SKILLS</p>
-                <div className='w-[60%] flex justify-between gap-6 items-center mx-auto mt-10'>
+                <div className='w-[60%] flex flex-col lg:flex-row justify-between gap-6 items-center mx-auto mt-10'>
                     <div className='flex flex-col gap-4'>
                         <img src={c} className='w-44 h-44 object-contain my-10'/>
                         <img src={laravel} className='w-44 h-44 object-contain my-10'/>
@@ -107,11 +107,10 @@ const AboutMe=()=>{
                     <tbody>
                     <tr>
                         <td className='align-text-top'>
-                            <span
-                                className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
+                            <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2024</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2024</small>
                             <p className='mb-2.5'><b>B.Sc in CSE</b></p>
                             <p className='mb-1'>United International University</p>
                             <p className='mb-1'>Major: Software Engineer</p>
@@ -121,7 +120,7 @@ const AboutMe=()=>{
                             <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>May,2024 - August,2024</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>May,2024 - August,2024</small>
                             <p className='mb-2.5'><b>Laravel Developer Intern</b></p>
                             <p className='mb-1'>Mircodeft</p>
                         </td>
@@ -131,7 +130,7 @@ const AboutMe=()=>{
                             <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2019</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2019</small>
                             <p className='mb-2.5'><b>Higher Secondary (School) Certificate (H.S.C)</b></p>
                             <p className='mb-1'>Monipur High School & College</p>
                             <p className='mb-1'>GPA: 4.00</p>
@@ -140,7 +139,7 @@ const AboutMe=()=>{
                             <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2021 - 2022</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2021 - 2022</small>
                             <p className='mb-2.5'><b>IT Support</b></p>
                             <p className='mb-1'>Quantabit</p>
                         </td>
@@ -150,7 +149,7 @@ const AboutMe=()=>{
                             <span className='-ml-10 mr-2 p-2.5 text-[13px] text-white rounded-full bg-[#068BF7] text-center'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2017</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2 mb-2 inline-block'>2017</small>
                             <p className='mb-2.5'><b>Secondary School Certificate (S.S.C)</b></p>
                             <p className='mb-1'>Monipur High School & College</p>
                             <p className='mb-1'>GPA: 5.00</p>
@@ -165,7 +164,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>May, 2024 - August, 2024</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2'>May, 2024 - August, 2024</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>Laravel Developer Intern</b></p>
                                 <p className='mb-1'>Mircodeft</p>
@@ -175,7 +174,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="briefcase-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2021 - 2022</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2'>2021 - 2022</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>IT Support</b></p>
                                 <p className='mb-1'>Quantabit</p>
@@ -188,7 +187,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2024</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2'>2024</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>B.Sc in CSE</b></p>
                                 <p className='mb-1'>United International University</p>
@@ -200,7 +199,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2019</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2'>2019</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>Higher Secondary (School) Certificate (H.S.C)</b></p>
                                 <p className='mb-1'>Monipur High School & College</p>
@@ -212,7 +211,7 @@ const AboutMe=()=>{
                             <span className='p-2.5 mr-4 text-[13px] text-white rounded-full bg-[#068BF7]'>
                                 <ion-icon name="book-sharp"></ion-icon>
                             </span>
-                            <small className='text-[13px] bg-[#252525] rounded-xl py-1 px-2'>2017</small>
+                            <small className='text-[13px] lg-[#252525] rounded-xl py-1 px-2'>2017</small>
                             <div className='ml-12 mt-4'>
                                 <p className='mb-2.5'><b>Secondary School Certificate (S.S.C)</b></p>
                                 <p className='mb-1'>Monipur High School & College</p>
